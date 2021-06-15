@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1 [Vat lat 1082 Transcription]</title>
+        <author ref="#JohnOfRipa">John of Ripa</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1 [Vat lat 1082 Transcription]</title>
+          <date when="2021-06-16">June 16, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-XJAjaj">Vat lat 1082</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-06-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="239-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <!-- Ripa d. 37, q. 1 -->
+      <!--cod-XJAjaj
+        Vat lat 1082
+        https://digi.vatlib.it/iiif/MSS_Vat.lat.1082/manifest.json -->
+      <!-- starts on <cb ed="#V" n="b"/> 239vb -->
+      <div xml:id="JRPxXx-de1266">
+        <head xml:id="JRPxXx-de1266-Hd1e103">Quaestio 1 [Vat lat 1082 Transcription]</head>
+        <head xml:id="JRPxXx-de1266-Hd1e106" type="question-title">
+          utrum sola divina essentia sit immensa localiter ex natura
+        </head>
+        <p xml:id="JRPxXx-de1266-d1e109">
+          <lb ed="#V"/>Circa distinctione 37 in qua magister tractat de modo 
+          <lb ed="#V"/><sic>inexistendi</sic> divinae essentiae in omnibus creaturis <pc type="#punctus"/> Quaero istam 
+          <lb ed="#V"/>quaestionem <pc type="virgula">//</pc> utrum sola divina essentia sit immensa localiter 
+          <lb ed="#V"/>ex natura
+        </p>
+        <div xml:id="JRPxXx-de1266-Dd1e128" type="rationes-principales">
+          <head xml:id="JRPxXx-de1266-Hd1e130">Rationes principales</head>
+          <p xml:id="JRPxXx-de1266-d1e133">
+            <pc type="#punctus"/> Et quod non arguo <choice><abbr>4r</abbr><expan>quadrupliciter</expan></choice> <pc type="virgula">//</pc> primo sic nam si sic 
+            <lb ed="#V"/>hoc est quia ipsa est in vacuo infinito ymaginario extra caelum 
+            <lb ed="#V"/>sed <unclear>contra nam</unclear> non ex hoc redditur immensa localiter quod sic probo non plus 
+            <lb ed="#V"/>adaequat dei immensitatem extensivam infinitas vacui ymaginarii 
+            <lb ed="#V"/>quam aeternitatem dei infinitas temporis ymaginarii aeterni a parte ante et a 
+            <lb ed="#V"/>parte post <pc type="#punctus"/> sed 2m non adaequat dei aeternitatem durativam igitur nec 
+            <lb ed="#V"/>primum dei immensitatem extensivam <pc type="#punctus"/> maior nota est ex consimili habitudine 
+            <lb ed="#V"/>utrobique et minor patuit <ref xml:id="JRPxXx-de1266-Rd1e169">distinctione 2a quaestione 1a ex processii <name xml:id="JRPxXx-de1266-Nd1e171">boetii</name> et 
+              <lb ed="#V"/><name xml:id="JRPxXx-de1266-Nd1e175">anselmi</name> ibidem deducto</ref>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e180">
+            <pc type="virgula">//</pc> 2o sic deus non in quolibet ymaginario loco 
+            <lb ed="#V"/>est immensus localiter <pc type="#punctus"/> igitur non est simpliciter immensus localiter consequentia patet nam 
+            <lb ed="#V"/>sicut omnis gradus intensive immensus est tantum unicus et omnimode indivisibilis 
+            <lb ed="#V"/>tam realiter quam ymaginarie ita omnis localis immensitas habet unicum 
+            <lb ed="#V"/>tantum gradum et per consequens immensa est dei praesentialitas essentialis ad omnem 
+            <lb ed="#V"/>ymaginarium locum patet igitur consequentia <pc type="#punctus"/> sed assumptum probo nam contradictio videtur esse 
+            <lb ed="#V"/>quod aliquid sit immensum ex praesentialitate ad situm pedalem <pc type="#punctus"/> igitur deus 
+            <lb ed="#V"/>non est immensus ex coexistentia in loco ymaginario pedali <pc type="#punctus"/> Et consimiliter 
+            <lb ed="#V"/>potest argui de quolibet loco ymaginario finito 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e212">
+            <pc type="virgula">//</pc> 3o sic deus potest esse 
+            <lb ed="#V"/>magis intimus essentialiter et praesentialiter alicui rei signa puta <c>a</c> 
+            quam nunc est de facto <pc type="#punctus"/> igitur non est immensus localiter <pc type="#punctus"/> consequentia patet <pc type="#punctus"/> et antecedens probo 
+            <lb ed="#V"/>nam deus alicui cui inest praecise per naturam potest inesse per gratiam 
+            <lb ed="#V"/>sicut imperio si fiat iustus ergo etc
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e234">
+            <pc type="virgula">//</pc> 4o arguo sic deus potest agere 
+            <lb ed="#V"/>ubi non agit <pc type="virgula">/</pc> igitur potest esse ubi non est et per consequens non est immensus 
+            <lb ed="#V"/>localiter <pc type="#punctus"/> consequentia prima patet <pc type="virgula">//</pc> <unclear>Tum</unclear> quia actio seu operatio indistanter se 
+            <lb ed="#V"/>habet ad activam potentiam et conformiter etiam terminus actionis qui non potest dis<lb ed="#V"/>stare
+            ab agere quo fluit inesse <pc type="virgula">//</pc> Tum etiam quia deus ante mundum 
+            <lb ed="#V"/>nullibi erat <unclear>quoniam</unclear> non erat aliquid actum ab eo <pc type="#punctus"/> et per consequens prius 
+            <lb ed="#V"/>est deum alicubi agere quam ibi esse
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e274">
+            <pc type="virgula">//</pc> Ad oppositum est <ref xml:id="JRPxXx-de1266-Rd1e279"><name xml:id="JRPxXx-de1266-Nd1e280">magister</name> in ista 
+              <lb ed="#V"/>distinctione circa finem</ref> ubi sic ait <pc type="#punctus"/> <quote xml:id="JRPxXx-de1266-Qd1e288" source="http://scta.info/resource/pll1d37c9-d1e3501" synch="1-18">fateamur itaque divinam naturam pro 
+                <lb ed="#V"/>immensitate sui nusquam deesse equamque solam omnino in localem et 
+                <lb ed="#V"/>incircumscriptibilem nullo concludi loco</quote> 
+            <!-- break point? -->
+            haec autem pars potest leviter confirmari 
+            <lb ed="#V"/>per rationem si enim divina essentia non est immensa localiter et ipsa non <unclear>limitatur</unclear> 
+            <lb ed="#V"/>ex se ad aliquem certum locum ymmo quilibet ymaginarius est sibi indifferens 
+            <lb ed="#V"/>sequitur quod ipsa mobilis est localiter quod repugnat suae simplicitati ac perfec<lb ed="#V"/>te 
+            actualitati
+          </p>
+        </div>
+        <div xml:id="JRPxXx-de1266-Dd1e311">
+          <head xml:id="JRPxXx-de1266-Hd1e313">Divisio quaestionis</head>
+          <p xml:id="JRPxXx-de1266-d1e316">
+            <pc type="virgula">//</pc> Circa istam quaestionem iuxta 4or primaria argumenta 
+            <lb ed="#V"/>4or descindentur articuli circa quos totum dependet quaesitum <pc type="virgula">//</pc> primus 
+            <lb ed="#V"/>erit utrum divina immensitas per vacuum ymaginarium infinitum sit possibilis 
+            <lb ed="#V"/>adaequari <pc type="virgula">//</pc> 2us erit utrum ad eundem situm ymaginarium finitum vel 
+            <lb ed="#V"/>infinitum sit possibilis maior et minor intimitas et numquid ad omnem talem 
+            <lb ed="#V"/>situm divina intimitas sit immensa <pc type="virgula">//</pc> 3us erit utrum inexistentia dei in 
+            <lb ed="#V"/>creatura per gratiam sit maior essentialis intimitas quam si esset solutio per naturam 
+            <lb ed="#V"/><pc type="virgula">//</pc> 4us erit utrum ex aliquo divino ad extra agere concludi possit 
+            <lb ed="#V"/>praesentialitas divina ad locum <pc type="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="JRPxXx-de1266-Dd1e355" type="articulus">
+          <head xml:id="JRPxXx-de1266-Hd1e357">Articulus 1</head>
+          <head xml:id="JRPxXx-de1266-Hd1e360" type="question-title">utrum divina immensitas per vacuum imaginarium infinitum sit possibilis adaequari</head>
+          <!-- article 1 -->
+          <p xml:id="JRPxXx-de1266-d1e365">
+            <pc type="virgula">//</pc> Pro declaratione primi articuli primo videndum 
+            <lb ed="#V"/>est numquid aliqua circa per potentiam naturalem vel supernaturalem coexistere possit 
+            <lb ed="#V"/>toti vacuo ymaginario infinito et 2o videbitur principale quaesitum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e375">
+            <pc type="virgula">//</pc> Circa 
+            <lb ed="#V"/>primum ergo insistendo <pc type="#punctus"/> advertendum est primo quod nulla essentia ex hoc quod tantus 
+            <lb ed="#V"/>gradus vel tantus essentiae determinat sibi tantum vel tantum locum diffinitum 
+            <lb ed="#V"/><pc type="virgula">/</pc> ubi considerandum est in principio et in hac materia omnibus praesupponendum quod quaelibet 
+            <lb ed="#V"/>essentia creata determinata est ad aliquod certum ubi diffinitum et quantum essentia 
+            <lb ed="#V"/>perfectior est tanto minus determinatur ad tale ubi <pc type="#punctus"/> ita quod <unclear>maiora</unclear> potest 
+            <lb ed="#V"/>naturaliter coexistere quam essentia minus perfecta <pc type="#punctus"/> dico aut hic de ubi 
+            <lb ed="#V"/>diffinitivo quoniam secus est de ubi circumscriptio ad quod res determinatur 
+            <lb ed="#V"/>ex modo quantitativo <pc type="#punctus"/> dico ergo quod quaelibet essentia simplex non habens 
+            <lb ed="#V"/>naturaliter modum quantitativum quales sunt substantiae intellectuales sim<lb ed="#V"/>plices 
+            determinantur sic ad modum diffinitive coexistendi in loco 
+            <lb ed="#V"/>reali nihil ymaginario non est cura quod substantia perfectior minus determinatur 
+            <lb ed="#V"/>ad ubi diffinitivum quam minus perfecta <pc type="#punctus"/> istud ne ultra procedam potest 
+            <lb ed="#V"/>leviter sua <unclear>dei</unclear> sic maiorem dicit perfectionem ceteris paribus coexistere 
+            <lb ed="#V"/>maiori loco et cuilibet eius parti secundum se totum quam minori <pc type="#punctus"/> sed qualibet <pc type="#punctus"/> 
+            <pb ed="#V" n="240-v"/>
+            <cb ed="#V" n="a"/><!-- https://digi.vatlib.it/iiif/MSS_Vat.lat.1082/manifest.json -->
+            <lb ed="#V"/><unclear>mo?ve</unclear> suae <unclear>valie?e</unclear> talis <unclear>aut</unclear> <unclear>coexistentia</unclear> <add place="above-line">divina</add> non potest esse huius <pc type="#punctus"/>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e460">
+            <pc type="virgula">//</pc> Item in creatura omni coexistentia tali 
+            <lb ed="#V"/>in loco quae est sibi connaturalis est <unclear>prima</unclear> potentia motiva <pc type="#punctus"/> ad tale coexistere vero quaelibet creatura est naturaliter 
+            <lb ed="#V"/><unclear>mutabilis</unclear> localiter quantumcumque etiam poneretur posse <!-- possible addition of "esse" --> ubique <pc type="#punctus"/> vel naturaliter sic esse non sic est de praesentia<lb ed="#V"/>litate 
+            divina ad locum vero non est alius modus praesentialitatis divinae ad locum quam creaturae quia pri<lb ed="#V"/>mus 
+            est negativus <unclear>pura</unclear> in distantiae a loco
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e489">
+            2us positivus sicud quidam ymaginantur nam si <choice><orig>alica</orig><reg>aliqua</reg></choice> 
+            <lb ed="#V"/>sint indistantia ab <choice><orig>alico</orig><reg>aliquo</reg></choice> loco talis praesentialitas quae est quidam <unclear>respectus</unclear> non plus ponit positum 
+            <lb ed="#V"/>esse in uno quam in alio ymmo in neutro ponit positivum esse distinctum a rebus quae dicuntur sic esse praesens
+            <lb ed="#V"/>licet ideo motus coessendi est varius quoniam praesentialitas creaturae necessari est terminus <unclear>pu?u?ie</unclear> potentiae 
+            <lb ed="#V"/><unclear>motivae</unclear> vel potest esse non sic de coexistentia dei
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e521">
+            <pc type="virgula">//</pc> ad videndum autem istam difformitatis est ul<lb ed="#V"/>terius 
+            advertendum quod quaelibet creatura eo ipso quolibet tale posse coexistentiae sic respciti talem 
+            <lb ed="#V"/>locum cui eo existit quod possibile est ipsam coexistere maiori vel minori per solam sibi mutationem 
+            <lb ed="#V"/>absque omni multitudine talis situs ymaginarii ut pote si deus omnia <unclear>dix?eret</unclear> praeter 
+            <lb ed="#V"/>aut angelum aut angelum non movendo localiter aut angelus in hoc casu non esset <unclear>inmissus</unclear> localiter 
+            <lb ed="#V"/>ymmo sicud idem posset motivum habet quod prius ita eadem coexistentiam quae est <unclear>imme?</unclear> terminus talis 
+            <lb ed="#V"/>posse quae eo existentia quae respicit positivum tamquam locum cum non dependeat a tali positivo 
+            <lb ed="#V"/>ideo sicud id est potest in tali casu vel in casu isto <unclear>mov?i?</unclear> non acquirendo tamen aliud et aliud ubi positivum 
+            <lb ed="#V"/>cum nullum sic tale nec aliud et aliud ymaginarium tale erit nihil est vero non mutat <c>a</c> 
+            <lb ed="#V"/>positive sed solum est ibi alius et alius terminus potentiae motivae quod non est nisi ipsum moveri putat aliter et 
+            <lb ed="#V"/>aliter coexister ita tale coexister est terminus potentiae motivae ad hoc autem quod entitas prae<lb ed="#V"/>sentialiter 
+            coexistens alicui situi <pc type="#punctus"/> reddatur impossibilis rem quod talis praesentialitas non sic nec 
+            <lb ed="#V"/>potest esse terminus <unclear>praeviae</unclear> potentiae motivae haec aut non est possiblis si talis praesentialitas ad locum ymaginarium 
+            <lb ed="#V"/>sic posterior tali ymaginatio loco ita quod talis eius ymaginarius non <unclear>vari?tur</unclear> ex materialis <unclear>mihi</unclear>
+            <lb ed="#V"/>distantia talis potentiae sed oportet quod talis praesentialitas sit quodam modo causalis et cumsci??i ymaginarii 
+            <lb ed="#V"/><pc type="virgula">//</pc> unde advertendum est quod si e?et <choice><orig>alica</orig><reg>aliqua</reg></choice> essentia quae est creatam vacui ita quod non esset ymaginabile vae?um 
+            <lb ed="#V"/>nisi a tali potentia talis potentia esset omnino immobilis localiter quoniam non prae exigeret locum ymaginarium 
+            <lb ed="#V"/>vel positivum ad s?um esse nec esset proprie in loco positivo vel ymaginario quoniam ab ipsa esset omnis talis 
+            <lb ed="#V"/>situs sed esset potius in se ipsa prima naturaliter omni tali situi ita est de divino esse unde dico 
+            <lb ed="#V"/>quod sicud gradus essendi divinus est prior naturaliter non solum latitudine positiva essendi rerum sed etiam ipsa 
+            <lb ed="#V"/>ymagine considerata quoniam sicud latitudo positiva capit esse a tali gradu ita ymaginariam possibilitatem 
+            <lb ed="#V"/>essendi intellectum quod neutro talis gradus infert causaliter a <unclear>prioria ne?e?em</unclear> huius latitudinis quo ad potentiae 
+            <lb ed="#V"/>vel intelligibile esse sicud patuit <ref xml:id="JRPxXx-de1266-Rd1e613">distinctione 2 quaestione 2a</ref> ita <unclear>ad illo</unclear> esse ratione substantiae immensitatis et immensi po<lb ed="#V"/>sse 
+            ad esse creaturae <unclear>fluit</unclear> quoddam modo intelligitur a priori tamquam a causa omnis ymaginaria distantia 
+            <lb ed="#V"/>exst?va localis <add place="above-line">ita</add> ita quod negandum talis immensitatis infert a priori negationem omnis situs ymaginarii 
+            <lb ed="#V"/>animo cum dicitur quod deus est praesens loco non consimili modo dicitur praesens quo creatura quoniam praesentialitas 
+            <lb ed="#V"/>divina est causalis efficiens scilicet quoddam modo vel redens situm ymaginarium cui est praesens esse 
+            <lb ed="#V"/>tantum vel tantum ymaginarium situm id est possibilem habetur ta?tam vel tantam distantiam possibilium quam ti?m? sed cum 
+            <lb ed="#V"/>dicitur creaturam esse praesentem eidem situi non est sic quoniam praesentialitas creaturae non est causa ta?ti 
+            <lb ed="#V"/>vel <unclear>tanti</unclear> situs sed potius tantus vel tantus situs est cauxa tanti?s coexistentiae creaturae sic scilicet quod prius 
+            <lb ed="#V"/>est huius situm esse sic ymaginarie quam creaturam posse et exire tanto situi sicud prius est possibilitas 
+            <lb ed="#V"/>tanta ad situm positivum quam etc prius est latitudo ymaginaria graduum tanta quam talis gradus 
+            <lb ed="#V"/>ponit esse tantus qui formaliter <unclear>habetur</unclear> huius latitudinem <pc type="virgula">//</pc> Ex hiis tam <unclear>dfffusive protensus </unclear> elici possunt 
+            <lb ed="#V"/><choice><orig>alicae</orig><reg>aliquae</reg></choice> conclusiones
+          </p>
+          <!-- conclusiones -->
+          <p xml:id="JRPxXx-de1266-d1e670">
+            <pc type="virgula">//</pc> prima est quod creatura est in loco positivo vel ymaginativo moderatio dependenter patet nam 
+            <lb ed="#V"/>ipsam creaturam esse in loco positivo vel ymaginativo est terminus alicuius posse praemii sui vel divini
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e678">
+            <lb ed="#V"/><pc type="virgula">//</pc> 2a conclusio prius est locum esse positivum scilicet vel ymaginarium quam creatam idem esse patet nam mobilitas creaturae in 
+            <lb ed="#V"/>loco necessario praeexistit materiam talis motus prava situm ymaginarium vel realem igitur et esse in 
+            <lb ed="#V"/>loco <unclear>huiusmodi locum</unclear>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e693"> 
+            <pc type="virgula">//</pc> 3a conclusio deus non est proprie in <choice><orig>alico</orig><reg>aliquo</reg></choice> loco vel situ reali vel ymaginario sed solum modo 
+            <lb ed="#V"/>in se ipso patet nam deus est prius naturaliter omni tali situ vel prior ymaginatio vel reali huic 
+            <lb ed="#V"/>sententiae concordat virtus <ref xml:id="JRPxXx-de1266-Rd1e708"><name xml:id="JRPxXx-de1266-Nd1e709">augustinus</name> ad dardanum</ref> et recitat <ref xml:id="JRPxXx-de1266-Rd1e714" target="http://scta.info/resource/pll1d37c9-d1e3515" synch="57-50"><name xml:id="JRPxXx-de1266-Nd1e715">magister</name> in littera</ref>  <quote xml:id="JRPxXx-de1266-Qd1e719">deus inquit 
+              <lb ed="#V"/>sine labore regens et continens mundum loco in caelo <unclear>in</unclear> terra totus</quote> sed in 
+            <lb ed="#V"/>se ipso veram totus <pc type="virgula">/</pc> Item clarus in libro 83 quaestionum quaestione 20 <quote xml:id="JRPxXx-de1266-Qd1e732" source="http://scta.info/resource/a83-q20-d1e108" synch="21-41">deus non alicubi est et tam 
+              <lb ed="#V"/>quia est cum loco non est in illo sunt omnia potius quam ille alicubi</quote> 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e738">
+            4a conclusio deum esse praesens loco 
+            <lb ed="#V"/>prius est quam locum esse realem vel ymaginariam <unclear>pro</unclear> nam praesentialitas et immensitas divina est causa omnis 
+            <lb ed="#V"/>ymaginarii situs et per consequens prius est <unclear>causalis</unclear> deum esse praesentis tali situi quam huius situm esse <unclear>situm</unclear> 
+            <lb ed="#V"/>ymaginarium 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e757">
+            <pc type="virgula">//</pc> dico ergo hic quod sicud prius est deum <unclear>scit</unclear> rem esse ad extra quam rem sicut esse per hic 
+            <lb ed="#V"/>quod scire vel respicere divinam est causale efficiens rem ita divinum praesentiale esse 
+            <lb ed="#V"/>est causale ad esse rei et ideo prius est deum praesentialiter ad esse rei et coexistere quam ipsam 
+            <lb ed="#V"/>rem esse Et in hic apparet difformitas praesentialitas divinae ad quamcumque praesentialitatem creaturae
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e772">
+            <pc type="virgula">//</pc> 5a conclusio  
+            <lb ed="#V"/>ad deum pertibiliter coexistere alicui situi ymaginatio nulla sequitur in deo mutatio seu motio 
+            <lb ed="#V"/>qualitercumque localis patet tamen quia de non est proprie in <choice><orig>alico</orig><reg>aliquo</reg></choice> tali situ sed in se ipso <pc type="#punctus"/> Tum quia cum 
+            <lb ed="#V"/>de sic prior naturaliter tali situi ymaginatio et causa ipsius sit talis situs particulariter de no<lb ed="#V"/>vo 
+            a deo fieret nulla sequeretur in deo mutatio et ideo licet omnis talis situs ymaginarius 
+            <lb ed="#V"/>sit aeternus et supponendo ipsum aeternum et nullum et deum noviter particulariter sibi exire sequentium in 
+            <lb ed="#V"/>deo mutatio Tamen quai deus prior est naturaliter tali situi et eam ipsius ex hic quod poneretur 
+            <lb ed="#V"/>particulariter dum particulariter ibi esse non sequitur in deo mutatio sed sequitur talem situm particulariter fluere 
+            <cb ed="#V" n="b"/>
+            <lb ed="#V"/>ab ipso deo quem ad modum de quocumque positivo esse <pc type="#punctus"/> ut pote si situs aliquis positivus particulariter
+            <lb ed="#V"/>producatur a deo <pc type="#punctus"/> deus particulariter est sibi praesens absque omni <unclear>mutatione</unclear> divina per solam scilicet formationem 
+            <lb ed="#V"/>mutationem et particulem formationem huius situs <pc type="#punctus"/> Et quia situs ymaginarius ita praeexigenter gradum 
+            <lb ed="#V"/>divini esse sicud positivus licet difformiter ideo idem sequitur de utroque <pc type="#punctus"/>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e824">
+            <pc type="virgula">//</pc> 6a conclusio ad quamlibet creaturam 
+            <lb ed="#V"/>particulariter esse in situ ymaginatio qualicumque necessario sequitur in creatura localis mutatio praeterea tum quia creaturam 
+            <lb ed="#V"/>esse continue in alio et in alio situ ymaginatio non est possibil nisi per motionem creaturae passivam vl activam 
+            <lb ed="#V"/>ut de clarum est est non quia quemlibet talem situm ymaginationem esse est aeternum sibi creaturam particulariter 
+            <lb ed="#V"/>ibi esse arguit necessario mutatione in creatura <pc type="#punctus"/> Tum quia creatura proprie est in tali situ et quo <unclear>d?a?o</unclear> 
+            <lb ed="#V"/>dependenter ut dictum est
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e846">
+            <pc type="virgula">//</pc> Sed hic est dubium quomodo <unclear>positio</unclear> talis situs ymaginarius cum nihil sit ubi erit 
+            <lb ed="#V"/>ibi illius quod istud positae non est nisi quaedam fictio intellectus <pc type="#punctus"/> sed isti habent differentiae consequenter quod nullus est situs 
+            <lb ed="#V"/>nisi realis et positu <pc type="#punctus"/> Et sequitur primo quod si <c>a</c> angelus qui nunc est per se e?eto quicumque alio correspondeto 
+            <lb ed="#V"/>nullibi esset quoniam in nullo situ positivo vel si in <choice><orig>alico</orig><reg>aliquo</reg></choice> non nisi in se ipso <pc type="#punctus"/> sed ipse non est aliquis 
+            <lb ed="#V"/>situs
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e880">
+            <pc type="virgula">//</pc> Sequitur 2o quod talis angelus <unclear>in huiusmodi </unclear> casu non posset moveri localiter non <unclear>e?i</unclear> posset mutare 
+            <lb ed="#V"/>situm Nam vel non esset in alio et in alio situ scilicet continue in seipso <pc type="#punctus"/> et ideo non mutaret situm 
+            <lb ed="#V"/>Et quod similiter sequitur quod iste mundus deo nihil aliud creante non est mobilis <choice><orig>alico</orig><reg>aliquo</reg></choice> motu recto a deo 
+            <lb ed="#V"/>quod est hic dampnatum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e907">
+            <pc type="virgula">//</pc> Sequitur etiam quod si ego sum in <choice><orig>alico</orig><reg>aliquo</reg></choice> <add place="margin-right">loco</add> <unclear>puta</unclear> animae circumscribere per solam 
+            <lb ed="#V"/>motionem et <unclear>e?s</unclear> vel continuam variationem esset continue in alio et alio loco et per consequens <unclear>movere</unclear> 
+            <lb ed="#V"/>localiter et econtra quantumcumque ad <choice><orig>alicem</orig><reg>aliquem</reg></choice> situm fixum <unclear>acce?rem</unclear> minus et minus distando 
+            <lb ed="#V"/>dummodo locus me circumscriptens continue esset idem nulla esset in me localis mutatio 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e947">
+            <pc type="virgula">//</pc> Sequitur etiam 
+            <lb ed="#V"/>quod <c>a</c> ab quantumlibet distantia per solam corruptionem intimerii positivi possunt fieri immediata et si 
+            <lb ed="#V"/>huius corruptio esset particulariter <c>a</c> mnus et minus distaret ab <unclear>et tamen</unclear> nec <c>a</c> nec <c>b</c> 
+            <lb ed="#V"/>localiter movetur quae non sunt intelligibilia
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e975">
+            <pc type="virgula">//</pc> dico ergo quodlibet situs ymaginarius nihil sit positive est tamen 
+            <lb ed="#V"/>possibilitas ad terminum vel tamen situm realem <pc type="#punctus"/>ymmo sum talis situs ponat aliquid sive non creatam esse 
+            <lb ed="#V"/>in tali situ vel distare aliquid ponit quod potest esse terminus praeviae mutationis localis sicud satus 
+            <lb ed="#V"/>patet ex dictis <pc type="#punctus"/> Nam eo ipso quo <c>a</c> angelus non habet potentiam coexistendi loco positivo nisi solum 
+            <lb ed="#V"/>finitam <pc type="#punctus"/> sicud illa finitas est causa coexistentiae ad locum terminum ita etiam si angelus esset praecise in vacuo 
+            <lb ed="#V"/>vero substantia <unclear>positiva</unclear> est causa quare vacuum cui coexistit est tantum perh oc quod non potest coexistere 
+            <lb ed="#V"/><unclear>maiora</unclear> 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1009">
+            <lb ed="#V"/>Item qua ratione est ponenda latitudo ymaginaria graduum est ponendum et situs ymaginarius 
+            <lb ed="#V"/>et tamen nec unum nec aliud dicit aliquod positivum esse sed potius positivum esse possibile hiis igitur vis 
+            <lb ed="#V"/>quae ostendunt difformitatem praesentalitatis divinae ad praesentalitatem creaturae
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1018">
+            <pc type="virgula">//</pc> videndum est breviter 
+            <lb ed="#V"/>de 2o quanta sit scilicet divina immensitas localis ubi ponendae sunt <choice><orig>alicae</orig><reg>aliquae</reg></choice> conclusiones
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1033">
+            <pc type="virgula">//</pc> prima sit ista 
+            <lb ed="#V"/>deus est realiter praesens infinito vacuo ymaginario extra <unclear>se?m</unclear> praeterea nam si tale vacuum esset locus 
+            <lb ed="#V"/>positivus secundum omnes <unclear>tlxo?gos</unclear> deus esset realiter ibi praesens igitur si nunc non est hic est quia tale vacuum 
+            <lb ed="#V"/>nihil pnit vero non eest possibilis aliquod esse tali vacuo realiter praesens
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1052"><pc type="virgula">//</pc> Sed contra nam istud aeque 
+            <lb ed="#V"/>probat quod nulla creatura potest esse realiter praesens alicui vacuo et in?m angelus non potest a se vel a deo 
+            <lb ed="#V"/>moveri localiter extra mundum nec etiam ipse mundus moveri potest ideo localiter et omnia in christiana hic 
+            <lb ed="#V"/>sequitur quae nunc pro christo sunt de distincta contra negantes situm ymaginarium
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1063">
+            <pc type="virgula">//</pc> 2o arguo sic deus potest 
+            <lb ed="#V"/>esse in tali situ ymaginario igitur de facto nunc est <pc type="#punctus"/> contra patet nam aliter vel deus mutaretur localiter 
+            <lb ed="#V"/>vel esset possibilis aliquis situs ymaginarius qui non esset et consimiliter esset possibile nullum situm ymaginarium esse patet 
+            <lb ed="#V"/>igitur consequentia et alias <unclear>praeterea</unclear> primo quia si?to?m vacuum huius repletur deus esset realiter ibi praesens <pc type="#punctus"/> sed 
+            <lb ed="#V"/>positivum esse situs realis non est causa talis praesentialitatis realis alias sequeretur quod da?us 
+            <lb ed="#V"/>autem mundum nullibi erat praesens <pc type="#punctus"/> et consimliter si solum <c>a</c> angelum deus crearet nullibi 
+            <lb ed="#V"/>cum casset <pc type="#punctus"/> nec <sic>alucubi</sic> fuisset nec ab <choice><orig>alico</orig><reg>aliquo</reg></choice> fuisset distans contra primus
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1106">
+            <pc type="virgula">/</pc> 2o 
+            <lb ed="#V"/>quia intelligentia infinita si esset posset esse per substantiam positivam in vacuo ymaginario in infinito igitur deus 
+            <lb ed="#V"/>non minus realiter potest esse praesens huius vacuo llicet non per praemiam motivam potentiam 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1116">
+            <pc type="virgula">//</pc> 2a conclusio totius 
+            <lb ed="#V"/>vacui possibilis seu situs ymaginarii infinitas immense exceditur ab immensitatis 
+            <lb ed="#V"/>reali et praesentiali divina <pc type="#punctus"/> praeterea probo quia ab immensitate praesentialitatis divinae tamquam a priora causaliter 
+            <lb ed="#V"/>proventi infinitas talis situs ymaginarii sicud a gradu intellectivo divino infinita latitudo 
+            <lb ed="#V"/>ymaginaria intellectiva igitur sicud gradus intensius divinus immense excedit totam huius latitudinem 
+            <lb ed="#V"/>ita praesentialitas realis divina totum huius situm ymaginarium
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1135">
+            <pc type="virgula">//</pc> 2o quia ex pedali situ ymaginatio 
+            <lb ed="#V"/>secundum omnem dimensione <unclear>infinitates</unclear> replicato resultare posset totus ymaginarius situs 
+            <lb ed="#V"/>possibilis sed divina immensitas praesentialis non minor est quam <unclear>durativa</unclear> vel intellectiva ex quo divina 
+            <lb ed="#V"/>essentia omni modo perfectionis est immensa <pc type="#punctus"/> Sequitur quod immensitas ipsa divina immense omnem 
+            <lb ed="#V"/>situm ymaginarium super excedit
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1159">
+            <pc type="virgula">//</pc> 3o arguo sic vel immensitas divina presentialis est tanta praecise sicud 
+            <lb ed="#V"/>totius situs ymaginarii vel maior si maior igitur talis situs ymaginarius est citra ipsam 
+            <lb ed="#V"/>sed quidquid est citra infinitum et maxime infinitum simpliciter exceditur infinite ab ipso <pc type="#punctus"/> Sequitur 
+            <lb ed="#V"/>propositum si deus principium igitur si totus situs ymaginarii ad aequat immensitatem divinam et per 
+            <lb ed="#V"/>consequens deus <choice><orig>alico</orig><reg>aliquo</reg></choice> modo est circumscriptibilis per aliquid ymaginarium extra se <pc type="#punctus"/> potest <unclear>enim</unclear> esse alicui loco 
+            <lb ed="#V"/>ymaginario ad aequato <pc type="#punctus"/>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1191"><pc type="virgula">//</pc> Item sine creatura potest esse per substantiam positivam naturalem in vacuo yma<lb ed="#V"/>ginatio 
+            infinito sicud fuit ostensum de intelligentia infinita si esset sine non saltem 
+            <lb ed="#V"/>per positivam absolutam divinam creatura potest esse in toto situ ymaginario extra caelum igitur si 
+            <lb ed="#V"/>totus situs ymaginarius <seg type="correction">a<add place="above-line">d</add>aequat</seg> dei immensitatem <pc type="#punctus"/> Sequitur quod creatura potest esse ita immensa localiter 
+            <lb ed="#V"/>sicud deus et ita incircumscripta localiter quod ita claudit contradictionem sicud creaturam esset in instanti 
+            <lb ed="#V"/>aeternitatis quo deus vel aequali et quacumque perfectione simpliciter in qua communicat deus
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1215">
+            <pc type="virgula">//</pc> Item contra hoc est <unclear>m?x</unclear>
+            <pb ed="#V" n="241-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V"/>processus sanctorum ad ductus per <ref xml:id="JRPxXx-de1266-Rd1e1230"><name xml:id="JRPxXx-de1266-Nd1e1231">magister</name> in littera</ref>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1236">
+            <pc type="virgula">//</pc> 3a conclusio solus locus intelligibilis immensus 
+            <lb ed="#V"/>qui est divinum esse mensurare potest et <unclear>circumscribere</unclear> seu adaequare dei immensitatem localem patet 
+            <lb ed="#V"/>ex praecedenti
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1249">
+            <pc type="virgula">//</pc> Item sicut sola entitas quae est divinum esse et non <choice><orig>alica</orig><reg>aliqua</reg></choice> mensura in <unclear>magi?a</unclear> extra deum potest 
+            <lb ed="#V"/>adaequare immensitatem durativam divinam <pc type="#punctus"/> ita solus locus <unclear>inte?</unclear> intra deum qui est divinum esse potest 
+            <lb ed="#V"/>adaequare dei immensitatem localem <pc type="#punctus"/> vero solum in seipso deus est adaequatus et commensurare 
+            <lb ed="#V"/>in quolibet aut situ ymaginatio immense super excessive vero non <unclear>imm?aito</unclear> potest dici exterior omni 
+            <lb ed="#V"/>tali situ <pc type="#punctus"/> et ambiens et circumscribens originem ymaginationem <unclear>si?m</unclear> loca erit hic sapientia circu?t gi?<lb ed="#V"/>cere 
+            <lb ed="#V"/>et profundum abici interior et exterior <choice><abbr>o^i</abbr><expan>omni</expan></choice> re <pc type="#punctus"/> non sicud divina aeternitas est saeculum saeculorum 
+            <lb ed="#V"/>claudens <choice><abbr>o^a</abbr><expan>omni</expan></choice> saecula etiam a parte primi secundum <ref xml:id="JRPxXx-de1266-Rd1e1309"><name xml:id="JRPxXx-de1266-Nd1e1310">anselmum</name> <title>proslogion</title> 2O</ref> ita hic immensitas 
+            <lb ed="#V"/>omnem situm ymaginationem vel realem <pc type="#punctus"/> qua propter non <unclear>imm?a?ito</unclear> describitur ipse deus spera intelligiblis infinita <!-- infinite sphere; sounds like something similar found in Plaoul -->
+            <lb ed="#V"/>locus enim divini esse est ignes et non habens consua?nem excessus et immensus <unclear>ln</unclear> 3o
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1333">
+            <pc type="virgula">//</pc> Ex hac <unclear>a?</unclear> commune cum praecedentibus satis patet quod solus deus est incircumscriptibilis et quod quilibet spiritus creatus quantumcumque 
+            <lb ed="#V"/>esset in situ ymaginatio infinito ad hoc tamen infinite distaret ab incircumscriptibilitate divina sicud et <unclear>ad?i?o</unclear> 
+            esset et ideo in infinitum plus circumscriptus quam a circumscriptibiltate recedens <pc type="#punctus"/> et infinite magis finitus 
+            <lb ed="#V"/>quam infinitus et ideo si ponatur etiam per naturam in alica intelligentia possibili praesentalitas ad totum situm yma<lb ed="#V"/>ginarium 
+            non recessu a circumscriptibilitate creaturae quoniam sicud illa infinitas intellectum quae potest redi ex <unclear>o</unclear> gra<lb ed="#V"/>du 
+            finito infinities replicato non est infinitas supra limites creaturae ita praesentalitas ad situm possibilem 
+            <lb ed="#V"/>redi ex situ finito infinities replicato 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1362">
+            <pc type="virgula">//</pc> Ex hiis <unclear>autem</unclear> <unclear>evi?t</unclear> apparet quomodo deus est praesens 
+            <lb ed="#V"/>realiter situi ymaginario extra mundum sicut enim mensura?m aeternitate cuilibet <pc type="#punctus"/> eo ipso redicitur praesens cui 
+            <lb ed="#V"/>est praesens mensuratum in aevo propter maiorem ambitum durativum aeternitatem et superhe?tem
+            <lb ed="#V"/>ad quacumque mensuram ymaginariam citra se <pc type="#punctus"/> ia immensitas localis divini esse necessario est praesens 
+            <lb ed="#V"/>realiter cuilibet cui potest eo ex?re praesentialiter aliquid citra ipsam <pc type="#punctus"/> et ideo si per impossibile divina immensitas 
+            <lb ed="#V"/>localis non esset localis respectu situs ymaginarii et huius situs esset non minus divina immensitas ipsum abiret 
+            <lb ed="#V"/>et circum?ret et esset <unclear>intime</unclear> sibi praesens realiter. Et sic patet quod immensitas hoc divina cuiuslibet circumscribit omnem finitatem 
+            <lb ed="#V"/>vel infinitatem illam ymaginabilem non solum causaliter sed etiam realiter sibi coexistendo et ipsam ambi?do et circumscribendo 
+            <lb ed="#V"/>quam propter non immutato solus deus incircumscriptibilis dici potest et ideo non mire?tur moderni cum audiunt 
+            <lb ed="#V"/>sive legunt quemdam noverit <unclear>relinquibile</unclear> inscriptus quod deus est in vacuo infinito ymaginario extra 
+            <lb ed="#V"/>caelum ex quo concludit quod deus non immuto immensus cum circumscriptus vaci?r dici potest quoniam iste doctor 
+            <lb ed="#V"/>ex hic non potest nec inducit aliquid propositum ipsam deo sed commune sibi et multa possibilibus creaturis nec 
+            <lb ed="#V"/>accedit per hoc ad incircumscriptibilem divinam ipsam tangendo sed infinite cum hoc deficit ab eadem 
+            <lb ed="#V"/>sed non est mix quoniam sicut nec inducit nec intelligere potuit istam immensitatem <pc type="#punctus"/> sicud nec communicare 
+            <lb ed="#V"/>potuit gradu infinitatis intellectivae divinae et ideo <unclear>ius?a</unclear> fuit <unclear>osten</unclear> multipliciter deum non posse 
+            <lb ed="#V"/>producere aliquid extra se infinitum perfectior et intellective sub ponens semper quod omnis infinitas intellectivi 
+            <lb ed="#V"/>quem daretur possibilis esset aequalis infiniti divinae et ita consimiliter habet hic dicere et consequenter quod quilibet spiritus intellectualis 
+            <lb ed="#V"/>qui esset a <unclear>c?a?r</unclear> praesens toti situi ymaginario extra caelum esset ita incircumscriptus localiter sicud dei et ita multum 
+            <lb ed="#V"/>ignoranter et defecti?r sunt incircumscriptibilitatem divinam <pc type="#punctus"/>  
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1440">
+            <pc type="virgula">//</pc> Ex hiis in omnibus <unclear>recumlictis</unclear> puto 
+            <lb ed="#V"/>satis patere quantum conceptu mihi pro nunc <unclear>de?</unclear> istius articuli
+          </p>
+        </div>
+        <div xml:id="JRPxXx-de1266-Dd1e1455" type="articulus">
+          <head xml:id="JRPxXx-de1266-Hd1e1457">Articulus 2</head>
+          <head xml:id="JRPxXx-de1266-Hd1e1460" type="question-title">
+            Utrum respectu eiusdem situs imaginarii sicut possibilis maior vel minor intimitas 
+            et numquid ad omnem talem situm divina intimitas sit immensa
+          </head>
+          <!-- article 2 -->
+          <p xml:id="JRPxXx-de1266-d1e1465">
+            Secundus articulus utrum respectu eiusdem situs ymaginarii sicut possibilis maior vel minor intimitas seu 
+            <lb ed="#V"/>praesentialitas et numquid ad omnem talem situm divina infinitas sic immensa <pc type="#punctus"/>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1472">
+            <pc type="virgula">//</pc> ubi ad<lb ed="#V"/>vertendum 
+            quod non loquor hic de intrinseca <choice><orig>alica</orig><reg>aliqua</reg></choice> formali vel causali qualicumque modo causaliter de qualibet 
+            <lb ed="#V"/><unclear>enim</unclear> tali non est mihi dubium quin sit immensa in deo ad omnem effectum ad quem ponitur esse <pc type="#punctus"/> sed loquor 
+            <lb ed="#V"/>de infinitate praesentialitatis realis de dicta causalitate
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1496">
+            <pc type="virgula">//</pc> pro de? ne istius articuli primo videndum est numquid in
+            <lb ed="#V"/>creaturis una res ponit esse magis praesens eidem loco quam altera vel eidem magis et minus praesens 
+            <lb ed="#V"/>et <unclear>aliquibus</unclear> vero quod sic <pc type="#punctus"/> si enim <c>a</c> corpus esset in divinis locis puta <c>b</c> etc staret <c>a</c> mo?ri 
+            <lb ed="#V"/>de <c>c</c> in <c>b</c> quo <unclear>facio</unclear> <c>a</c> prius erat in <c>b</c> et per modum iterum sint in <c>b</c> igitur primum modum magis est in 
+            <lb ed="#V"/><c>b</c> quam prius <unclear>quamvis</unclear> est in <c>b</c> Et per idem probari potest quod quantumlibet magis <c>a</c> potest esse in <c>b</c> quam 
+            <lb ed="#V"/>nunc est <pc type="#punctus"/> idem argumentum potest fieri et magis apte in con?i?e videmus rei in alteram <pc type="#punctus"/> ut pote si 
+            <lb ed="#V"/><c>a</c> et <c>b</c> spiritus sint simul in loco <pc type="#punctus"/> et deus convertat <c>a</c> in <c>b</c> <c>b</c> est bis in eodem loco quoniam sub directa 
+            <lb ed="#V"/>conversi?e et ex vi conversi?is
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1587">
+            <pc type="virgula">//</pc> Sed iste modus ponendi non apparet mihi probabilis nec etiam sub sufficienter fa?tur 
+            <lb ed="#V"/>quod non sic probabilis ostendo <pc type="#punctus"/> si enim <c>a</c> res praesens nunc alicui situi potest fieir magis praesens quoniam 
+            <lb ed="#V"/>potest esse bis in eodem situ e?t? et sic in infinitum <!-- possible correction here --> Sequitur consimiliter quod si <c>a</c> nunc est sic praesens et aliquid 
+            <lb ed="#V"/>potest esse magis vel minus praesens per istam modum Sequitur quod intimias vel praesentialitas <c>a</c> ad situm 
+            <lb ed="#V"/>potest intelligendi ab sed hic quod multiplicius extensive fiat in loco sed hic consequens n? cl?re re<lb ed="#V"/>pungantiam 
+            nam si <c>a</c> ad eidem situm continue fiat magis et magis praesens intellective <c>a</c> mutatur 
+            <lb ed="#V"/>propter mutaret et ma?em coexistentiam eidem ymaginario situi <pc type="#punctus"/> sed talis mutatio non est intelligibilis nisi ad 
+            <lb ed="#V"/>locum igitur stat <c>a</c> esse semper in eodem situ praecise et tam <c>a</c> mutari localiter quod videtur cla?re repu<lb ed="#V"/>gnantiam
+            <pc type="virgula">//</pc> confirmatur nam si per ymaginationem <unclear>t?m <!-- tantum--></unclear> vincus situs ymaginarius esset puta <c>b</c> et <c>a</c> esset praesens <c>b</c> 
+            <pb ed="#V" n="241-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V"/>nunc et tunc praesens igitur <c>b</c> non est praesentius situi eidem secundum totam lati?a sui quam <c>a</c> secundum 
+            <lb ed="#V"/>mentem praecise <unclear>scilicet</unclear> <c>a</c> secundum totam latitudinem substantiam sui est in 2lo praesentius eidem situi quam <c>b</c> 
+            <lb ed="#V"/>secundum totam substantiam latitudinem <pc type="#punctus"/> patet ergo conclusio
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1684">
+            <pc type="virgula">//</pc> 3a conclusio si sub prima intelligentia creabilis esset de facto 
+            <lb ed="#V"/>cuilibet situi cui coexisteret infinite essentialiter esset praesens <unclear>probatio</unclear> nam non staret talem 
+            <lb ed="#V"/>intelligentiam esse praesentem alicui situi et non secundum totam latitudinem sui esse infinitam igitur non 
+            <lb ed="#V"/>staret ipsam alicui situi coexistere et non esse sibi infinite praesentem <pc type="#punctus"/> consequentia patet ex praecedenti 
+            <lb ed="#V"/>conclusione
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1704">
+            <pc type="virgula">//</pc> 4a conclusio et esset ultimate Responsivi ad articulum divina essentia nec?o situi cuilibet yma<lb ed="#V"/>ginatio 
+            immense est praesens essentialiter ita quod aeque sicud ipsa est immensa ibi substantia natura probatio nam 
+            <lb ed="#V"/>divina essentia sed totalem subiectum immensum esse est praesens cuilibet situi igitur immense est praesens 
+            <lb ed="#V"/>consequentia patet ex praecedentibus conclusionibus <pc type="#punctus"/> et alias communiter per omnes theologios ipse enim veram est toti vera <name xml:id="JRPxXx-de1266-Nd1e1718">augustinus</name> 
+            ad dare danum in caelo totus est deus <unclear>e?terra</unclear> totus sed in se ipso ubique totus
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1725">
+            <pc type="virgula">//</pc> praeterea non <unclear>sta?et</unclear> 
+            <lb ed="#V"/>deum secundum totalem secundum esse illa formaret alicui et non esse sibi immense <unclear>inti?m?</unclear> formaliter igitur <unclear>conn?ter</unclear> 
+            <lb ed="#V"/>non stat secundum totalem subiectum esse <pc type="#punctus"/> esse praesenter essentialiter alicui situi et non immense praesentialiter
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1747">
+            <lb ed="#V"/><pc type="virgula">//</pc> praeterea deus est magis intimus essentialiter cuilibet situi quam creatura eidem igitur immense cuilibet situi 
+            <lb ed="#V"/>est praesens essentialiter consequentia patet <pc type="#punctus"/> non secundum omnem gradum qui denotat perfectionem deus immense excedit 
+            <lb ed="#V"/>creaturam <pc type="#punctus"/> sed ista intimitas maior seipso est ex summa perfectione <pc type="#punctus"/> et qui creatae divina 
+            <lb ed="#V"/>ymmo ex substantia immensitate ergo etc patet igitur consequentia sed assumptum probo ex variis auctoritatibus sanctorum 
+            <lb ed="#V"/>et primo ad hoc est processus <ref xml:id="JRPxXx-de1266-Rd1e1768"><unclear>io?i</unclear> ad <name xml:id="JRPxXx-de1266-Nd1e1772">marcellam</name> epistola 96</ref> ubi ad ultimam quaestionem Respondens 
+            <lb ed="#V"/>sic ait <pc type="#punctus"/> non ambigas ita in dominico corpore habitasse deum verbum ut et in patre 
+            <lb ed="#V"/>esset et caeli <unclear>circu?m cla?ret</unclear> atque in omnibus infusus esset et circumfusus idem ut concta?<lb ed="#V"/>pentrat 
+            interior omni te et similiter stultum est igitur illius potentiam verius con?pli perm?te fieri 
+            <lb ed="#V"/>quem non capit caelum et tam qui ubique erat etiam in filio hominis totus erat
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1792">
+            <pc type="virgula">//</pc>Item ad idem est <ref xml:id="JRPxXx-de1266-Rd1e1797"><name xml:id="JRPxXx-de1266-Nd1e1798">augustinus</name> 
+              <lb ed="#V"/>8 super genese c. 33</ref> deus in nullo est locorum vel interu?allo vel spa?o in hom?u?li excedenti<lb ed="#V"/>que 
+            potentia et interior omni re <pc type="#punctus"/> quia in ipso etiam omnia et exterior omni re quia ipse est super 
+            <lb ed="#V"/>omnia
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1811">
+            <pc type="virgula">//</pc> ad idem est <name xml:id="JRPxXx-de1266-Nd1e1816">gregorius</name> 2o super <unclear>ez?</unclear> homilia 5 deus inquit ubique est et ubique totus 
+            <lb ed="#V"/>est ideo necesse quia hiis qui caelo ut sedi praesidet super et intus est et qui caelum 
+            <lb ed="#V"/>palmo <unclear>menti?</unclear> et <unclear>terrai pugi?o</unclear> concludit exterius superius et inferius est <pc type="#punctus"/> ut igitur 
+            <lb ed="#V"/>indicaret omnipotens deus interiorem se esse et superiorem omnibus caelum sibi sedem esse perhibitu
+            <lb ed="#V"/>ut nota se ostenderet o? circumscribere caelum neti?a palmo <pc type="#punctus"/> et terram se asserit 
+            <lb ed="#V"/><unclear>pugi?o</unclear> concludere et sic apparet secundum istorum deo?orum <unclear>sententias</unclear> deum esse magis intimi?m 
+            <lb ed="#V"/>praesentialiter et essentialiter ubicumque est quam <choice><orig>alica</orig><reg>aliqua</reg></choice>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1858">
+            <pc type="virgula">//</pc> ultimo arguo sic sed conclusio non sit vera 
+            <lb ed="#V"/>igitur deus cuilibet situi solum finite est praesens realiter
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1866">
+            <pc type="virgula">//</pc> Sed contra primo quia deus in seipso ut loco 
+            <lb ed="#V"/>proprio est immensus praesentialiter sed deus secundum totale <unclear>subiectum</unclear> esse ubique est igitur aequae immensus est 
+            <lb ed="#V"/>ubique in se ipso <pc type="#punctus"/>
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1881">
+            <pc type="virgula">//</pc> 2o quia deus si in quolibet situ finito ymaginarius est infinitus <unclear>se?</unclear> quod deus non est omni 
+            <lb ed="#V"/>modo immensus praesentialiter sed si deus non secundum omnem rationem <unclear>ca?em</unclear> immense causaliter contineret 
+            <lb ed="#V"/>omnem effectum non esset omnimodo immensus causaliter quod tamen nullus <unclear>teo</unclear> 8o habet concedere patet 
+            <lb ed="#V"/>prima conclusio Ex qua cum praecedentibus satis patet declaratio huius articuli 
+          </p>
+        </div>
+        <div xml:id="JRPxXx-de1266-Dd1e1904" type="articulus">
+          <head xml:id="JRPxXx-de1266-Hd1e1906">Articulus 3</head>
+          <head xml:id="JRPxXx-de1266-Hd1e1909" type="question-title">
+            Utrum inexistentia dei in creatura per gratiam sit maior essentialis intimitas 
+            quam si esset solutio per naturam
+          </head>
+          <!-- article 3 -->
+          <p xml:id="JRPxXx-de1266-d1e1914">
+            <lb ed="#V"/>Tertius articulus utrum inexistentia dei esse per gratiam sic maior essentialis intimitas quam 
+            <lb ed="#V"/>si esset solum inter per naturam quoniam <ref xml:id="JRPxXx-de1266-Rd1e1920"><name xml:id="JRPxXx-de1266-Nd1e1921">magister</name> in littera</ref> specialiter de modo istius inexistentiae in<lb ed="#V"/>vestigat 
+            per quem modum etiam sancti dicuntur templum dei ideo videndum est qualis sit ista 
+            <lb ed="#V"/>inexistentia et ideo potentiam <choice><orig>alicas</orig><reg>aliquas</reg></choice> conclusiones quas elici possunt ex dictis distinctione 14 iuxta 
+            <lb ed="#V"/>intentionem <name xml:id="JRPxXx-de1266-Nd1e1938">augustini</name> et <name xml:id="JRPxXx-de1266-Nd1e1941">magistri</name> sive conclusiones vera sicut sive non nam oppositae 
+            <lb ed="#V"/>essent vera ponendo solum donum creatum in sanctificatione creaturae
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e1947">
+            <pc type="virgula">//</pc> prima conclusio sic ista deus 
+            <lb ed="#V"/>non solum in dono creato in quo obiective relucet <pc type="#punctus"/> sed etiam in seipso est praesens hiis <unclear>quos</unclear> 
+            <lb ed="#V"/>per internam sanctificationem gratificat intelligo istam sic per hoc quod deus donum caritatis creat 
+            <lb ed="#V"/>in mente redicitur praesens menti obiective <del>quo</del> eo modo quo id quod diligitur quantumcumque 
+            <lb ed="#V"/>sit absens realiter est praesens <unclear>animati</unclear> et iste modus inexistendi est multa <unclear>me<lb ed="#V"/>taplexus</unclear> 
+            sicud quod rosa quae non est in rerum natura est in intellectu modo quoniam ibi 
+            <lb ed="#V"/>est species rosae et chymera in ymaginatione dico ergo quod deus in sanctificatione <unclear>esse</unclear> redicitur praesens 
+            <lb ed="#V"/>non solum isto modo sed etiam vera et realiter in subiecto esse istud patet expresse per auctoritatem <name xml:id="JRPxXx-de1266-Nd1e1985">le<lb ed="#V"/>onis 
+              papae</name> allegatam <ref xml:id="JRPxXx-de1266-Rd1e1990">distinctione 14</ref> qui in <ref xml:id="JRPxXx-de1266-Rd1e1993">sermone de penthecus</ref> loquens de missione 
+            <lb ed="#V"/>spiritus sancti ad apostolos dicit quod eis assumit spiritus sanctus non solum per gratiam vivi<lb ed="#V"/>ficationis 
+            et eo operationis sed per ipsam praesentiam maietatis E?to quod non 
+            <lb ed="#V"/>solum affluit in dono creato in fu?o qui non est motus inexistentiae ralis sed per ipsam 
+            <lb ed="#V"/>praesentiam maiestas
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2007">
+            <pc type="virgula">//</pc>Item aliter ipsa <unclear>mi?o</unclear> spiritus sancti ad mentem non est aliud quam de<lb ed="#V"/>rivatio 
+            doni in quo obiective diligitur deus et spiritus sanctus quem ad modum si ergo 
+            <cb ed="#V" n="b"/>
+            <lb ed="#V"/>nominaliter dilectus a te dicere nominaliter tibi fieri praesens et quo d?ao menti tibi sed ab 
+            <lb ed="#V"/>sic quod solum istam missi?em dicaremus est temporalem spiritus sancti qui vera et realiter fuit missus 
+            <lb ed="#V"/>in eadem essentia qua est deus sic <unclear>enim</unclear> in sufla?vt christus et dixit accidente spiritum sanctum ex quo 
+            <lb ed="#V"/>concludit <name xml:id="JRPxXx-de1266-Nd1e2031">augustinus</name> quod verus deus erat christus qui dicit deum sicud diffusive fuit ostensum <unclear>vide</unclear> 
+            <lb ed="#V"/>prius
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2041">
+            <pc type="virgula">//</pc> 2a conclusio si per impossibile deus non esset praesens realiter menti ante sanctificatione per sanctificatione rede?tur 
+            <lb ed="#V"/>essentialiter sibi praesens <pc type="#punctus"/> patet ex praecedenti non deus ad est per sanctificationem creaturae quam sanctificat per suam praesentiam 
+            <lb ed="#V"/>maiestatis
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2053">
+            <pc type="virgula">//</pc> Item spiritus sanctus in sanctificatione fit caritas creaturae sicut patuit in allegata 
+            <lb ed="#V"/>distinctione et in 16 igitur ex ipsa realis praesens realiter menti contra patet nam <add place="margin-right">non</add> stat aliquid esse actum 
+            <lb ed="#V"/>informa tantum vel immutativum seu habitum alicuius potentiae perceptivae et non esse sibi praesens realiter Ex 
+            <lb ed="#V"/>hac consequentiae patet quod quantumcumque deus sic intimus cuilibet creaturae essentialiter tamen creatura sanctificata etiam ex sanctificatione 
+            <lb ed="#V"/>hac realem coexistentiam ipsi deo propter quam merito non solum methaphoricae modo praemio sed etiam 
+            <lb ed="#V"/><unclear>vera</unclear> arguitur templum dei et isto modo potest intelligi dictum <ref xml:id="JRPxXx-de1266-Rd1e2074"><name xml:id="JRPxXx-de1266-Nd1e2075">augustini</name> in epistola ad Ierominum</ref> de ori<lb ed="#V"/>gine 
+            aliae et recitat <ref xml:id="JRPxXx-de1266-Rd1e2081"><name xml:id="JRPxXx-de1266-Nd1e2082">magister</name> in littera</ref> deus inquit cum <unclear>si?</unclear> in omnibus essentialiter <seg type="correction">a<del rend="strikethrough">c</del> totus</seg> in illis tamen plenius in esse 
+            <lb ed="#V"/>dicitur quos inhabitat id est in quibus ita est ut faciat eos templum et hii tales cum eo sunt iam ex 
+            <lb ed="#V"/>parte sed in beatitudine perfectere erit ubi etiam <unclear>obiecit</unclear> quod motus inexistendi dei beatificus etiam est realis 
+            <lb ed="#V"/>ita quod non solum hic in via ultra caritatem creata oportet ponere increatam in qua deus redicitur pre?
+            <lb ed="#V"/>mente ipsa praesentia maiestatis sed etiam in patria ultra omnem qualitatem creaturam in qua deus obiective 
+            <lb ed="#V"/>reluceat oportet ponere beatificam visionem cum deo secundum substantiae praesentiam maiestatis aliter non plenius 
+            <lb ed="#V"/>esset in beatis quam nunc in via iniusta et hoc etiam dicit in <ref xml:id="JRPxXx-de1266-Rd1e2112">libro contra <unclear>maximinam</unclear></ref> In templo inquit 
+            <lb ed="#V"/>solo habitat deus scilicet in sanctis qui sunt templum dei modo secundum fidem ambulantes et templum dei 
+            <lb ed="#V"/>erunt aliquando etiam secundum speciem qualiter nunc sunt templum de angeli <!-- possible transposition corrections here --> 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2124">
+            <pc type="virgula">//</pc> 3a conclusio deus in 
+            <lb ed="#V"/>sanctificatione non redditur magis intimus creaturae realiter quam ipsa deducta 
+            <lb ed="#V"/>probatur primo quia deus est immense intimus essentialiter cuilibet rei igitur nulli rei potest 
+            <lb ed="#V"/>esse magis intimus vel minus quam est <pc type="#punctus"/> antecedens patet ex praecedenti articulo
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2138">
+            <pc type="virgula">//</pc> 2o 
+            <lb ed="#V"/>quia si deus potest fieri magis intimus realiter hoc necessario est per mutationem dei 
+            <lb ed="#V"/>ex quo talis praesentialitas est realis secundum divinum esse ita quod sicut creatura ex 
+            <lb ed="#V"/>hoc quod fieret magis intima realiter mutaretur ita deus
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2150">
+            <pc type="virgula">//</pc> 3o quia si 
+            <lb ed="#V"/>deus ex sanctificatione redditur magis intimus hoc est quia per sanctificationem eest forma 
+            <lb ed="#V"/>ipsius mentis 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2161">
+            <pc type="virgula">//</pc> Sed contra nam ex hoc non solum in deo sed nec in creatura sequitur 
+            <lb ed="#V"/>maior intimitas ita non accidentia sunt praesentia realiter corpori christi in sacramento 
+            <lb ed="#V"/>altaris sicud si informarent ymmo per informare non fierent magis 
+            <lb ed="#V"/>praesentia realiter carni christi ex hoc mutaretur et non nsi mutatione 
+            <lb ed="#V"/>locali ut notum est quod tamen constat esse falsum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2175">
+            <pc type="virgula">//</pc> Item quantumcumque muta<lb ed="#V"/>rentur 
+            sic localiter staret ipsa mutari et tamen non informare et per 
+            <lb ed="#V"/>consequens staret ipsa aequae esset intima realiter carni christi non informando 
+            <lb ed="#V"/>sicud informando patet igitur conclusio 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2187">
+            <pc type="virgula">//</pc> 4a conclusio In sanctificatione substantiae nullus creaturae acquitur 
+            <lb ed="#V"/>gradus intimitatis ad deum nec modus sed eadem intimitas per novum a<lb ed="#V"/>gere 
+            sibi correspondet patet conclusio quo ad primam partem ex praecedenti quo ad 
+            <lb ed="#V"/>2am ex 2a conclusione nam et si ante sanctificationem deus non esset realiter praesens 
+            <lb ed="#V"/>menti ex vi sanctificationis redderetur realiter sibi praesens et isto modo intelligo 
+            <lb ed="#V"/><name xml:id="JRPxXx-de1266-Nd1e2202">augustinum</name> <ref xml:id="JRPxXx-de1266-Rd1e2205">superius allegatum in 2a conclusione</ref> quod deus plenius est in bonis 
+            <lb ed="#V"/>quam in malis non quod deus sit magis intimus realiter bonis quam malis 
+            <lb ed="#V"/>nec quod multiplicius intimus quo ad multiplicitatem intimitatis sed quo 
+            <lb ed="#V"/>ad multiplicitatem actionis quoniam per vim sanctificativam redditur 
+            <lb ed="#V"/>praesens bonis et eodem modo plenius est in beatis in patria quam in iustis 
+            <lb ed="#V"/>in via quoniam non solum per agere sanctificatum quo redditur praesens 
+            <lb ed="#V"/>realiter menti sed etiam per agere beatificatum quo ipse deus sit species 
+            <lb ed="#V"/>immediate in suo esse immutans beatifice potentiam mentem plenisssime
+            <lb ed="#V"/>aut dicitur praesens homini christo in quo in habitat omnis plenitudo divinitatis corpora<lb ed="#V"/>liter 
+            et ideo sibi etiam per agere communicatum totius plenitutinis deitatis redditur 
+            <lb ed="#V"/>realiter praesens et sic de m?a istius articuli super excedente ineffabiliter vires 
+            <lb ed="#V"/>nostras dictum sit prout melius catholice iuxta intentionem doctorum 
+            <lb ed="#V"/>ortodoxorum concipi potui:
+          </p>
+        </div>
+        <div xml:id="JRPxXx-de1266-Dd1e2236" type="articulus">
+          <head xml:id="JRPxXx-de1266-Hd1e2238">Articulus 4</head>
+          <head xml:id="JRPxXx-de1266-Hd1e2241" type="question-title">
+            utrum ex aliquo divino ad extra agere concludi 
+            possit praesentialitas divina ad locum
+          </head>
+          
+          <p xml:id="JRPxXx-de1266-d1e2244">
+            Quartus articulus utrum ex aliquo divino ad extra agere concludi 
+            <lb ed="#V"/>possit praesentialitas divina ad locum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2249">
+            iste articulus potest habere 
+            <lb ed="#V"/>duplicem intellectum primus est utrum ex actione divina concludi possit 
+            <lb ed="#V"/>qualicumque modo immensitas localis divina et patet quod sic nam ex agere divino
+            <pb ed="#V" n="242-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V"/>quod est independenter et immense agere ad extra concludi potest immensum
+            <lb ed="#V"/>posse divinum ad extra et per consequens immensum divinum esse et per consequens 
+            <lb ed="#V"/>immensitas divini esse tam durativa quam extensiva et praesentialis 
+            <lb ed="#V"/>ad omnia
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2269">
+            <pc type="virgula">//</pc> alius intellectus potest esse iste utrum ratio agendi respectu alicuius 
+            <lb ed="#V"/>rei exigat praesentialitatem essentialem ad terminem ita quod deus ex hoc 
+            <lb ed="#V"/>quod agit vel conservat aliquam rem sit praesens essentialiter huius rei et ad istum 
+            <lb ed="#V"/>intellectum sumendo articulum pono <choice><orig>alicas</orig><reg>aliquas</reg></choice> conclusiones
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2288">
+            <pc type="virgula">//</pc> prima sit ista 
+            <lb ed="#V"/>licet omnis dei intimitas et praesentialitas creaturis sit causalis tamen si per 
+            <lb ed="#V"/>impossibile divina essentia non esset causativa ad extra adhuc esset localiter im<lb ed="#V"/>mensa 
+            ista conclusio quo ad primam partem patet ex dictis in 1o articulo quo ad 
+            <lb ed="#V"/>2am probatur nam si deus non esset <unclear>causatus</unclear> ad extra non minus esset essentialiter 
+            <lb ed="#V"/>immensus quo ad quidditatem essendi per prius non est immensus perfectior 
+            <lb ed="#V"/>et quidditative quam causaliter igitur non minus deus esset immensus in seipso ut 
+            <lb ed="#V"/>loco intelligibili proprio et per consequens non minus supereminenter ambiret et conclu<lb ed="#V"/>deret 
+            circumscribendo totum vacuum ymaginarium infinitum <pc type="virgula">//</pc> confirmatur nam 
+            <lb ed="#V"/>deus et si non esset causatus ad extra per impossibile non minus esset <unclear>immensus</unclear> 
+            <lb ed="#V"/>durative igitur et localiter consequentia patet nam nulla potest esse ratio diversitatis plus 
+            <lb ed="#V"/>in uno quam in alio et antecedens patet nam deus secundum quamlibet rationem essentialem est aeternus 
+            <lb ed="#V"/>sicut enim quaelibet huiusmodi rationum seipsa formaliter est infinita intensive ita et aeterna 
+            <lb ed="#V"/>sicud patuit <ref xml:id="JRPxXx-de1266-Rd1e2331">distinctione 9</ref> et per consequens consimili ratione localiter immensa ex quo 
+            <lb ed="#V"/>nulla talis infinitas aliquid potest positive ultra rationem quae denominatur infinita et ideo 
+            <lb ed="#V"/>dico quod sicud deus si per inpossibile haberet solum primam denominationem per<lb ed="#V"/>fectionis 
+            essentialis et quidditative putat esse adhuc esset intensive immensus 
+            <lb ed="#V"/>secundum talem denominationem ac etiam aeternus secundum talem denominationem ita etiam localiter 
+            <lb ed="#V"/>immensus 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2345">
+            <pc type="virgula">//</pc> 2a conclusio prius est naturaliter immensitas localis divina quam immensitas 
+            <lb ed="#V"/>causalis probatur ex praecedenti nam prius est dictum esse immensum quidditative et per<lb ed="#V"/>fectionaliter 
+            quam causaliter sed per immensitatem quidditativam habetur sufficiens non in<lb ed="#V"/>mensitatis 
+            localis igitur prior est talis immensitas localis quam causalis
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2357">
+            <pc type="virgula">//</pc> 3a conclusio si per inpossibile deus esset immensus causaliter et non localiter nullum 
+            <lb ed="#V"/>divinum agere redderet deum praesentem termino actionis et hoc praesentia 
+            <lb ed="#V"/>locali et reali ista conclusio probatur primo quia ad hoc quod effectus fluat ab <choice><orig>alica</orig><reg>aliqua</reg></choice> 
+            <lb ed="#V"/>tam solum sufficit quod effectus contineatur virtualiter et causaliter in tali causa igitur 
+            <lb ed="#V"/>ubi distantia non remitteret actionem agentis aequae effectus posset agi 
+            <lb ed="#V"/>distanter sicud immediate a causa sed nulla distantia finita potest remittere agere 
+            <lb ed="#V"/>immensum agentis primi igitur agens primum aequae continet causaliter effectum ad situm 
+            <lb ed="#V"/>quantumlibet distantem sicut ad immediatum 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2384">
+            praeterea quod causa 2a remissus agat 
+            <lb ed="#V"/>indistans quam in propinquum hoc est propter passum quod non est ita propinquum 
+            <lb ed="#V"/><unclear>veritati</unclear> agentis et per consequens hoc est ratione <unclear>lincatonis</unclear> veritatis ac?ue igitur causa 
+            <lb ed="#V"/>omnino illicita aequae fortitur potest agere in remotum sicut in propinquum 
+            <lb ed="#V"/>et per consequens aeque potest esse praesens virtualiter passo remoto sicut propinquo 
+            <lb ed="#V"/>et ita non exigit praesentialitatem localem ad terminum actionis 
+            <lb ed="#V"/><pc type="virgula">/</pc> confirmatur nam quaelibet causa secunda quae potest distanter agere per causas interme?tas 
+            <lb ed="#V"/>in certa proportione et solum finita est remissius potens in certum distans 
+            <lb ed="#V"/>quam in propinquum immediate igitur causa infinita ad omnem finitam distantiam 
+            <lb ed="#V"/>infinite esset activa et per consequens causa simpliciter prima immense activa aequae 
+            <lb ed="#V"/>virtualiter et causaliter continet effectum et si per impossibile quantulibet a passo 
+            <lb ed="#V"/>distaret sicut si esset immediata passo
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2418">
+            <pc type="virgula">//</pc> praeterea si causa prima per 
+            <lb ed="#V"/>impossibile esset praecise ubi est nunc sol adhuc posset eundem effectum quam sol 
+            <lb ed="#V"/>in terra producere <unclear>mediantibus</unclear> aliis causis 2is sed nullae causae conferunt 
+            <lb ed="#V"/>ad causalitatem causae primae igitur causa prima aequae se sola illum sufficeret 
+            <lb ed="#V"/>effectum producere in terra <pc type="virgula">//</pc> confirmatur nam quaero aut sol per suam veritatem 
+            <lb ed="#V"/>intrinsecam sub <choice><orig>alico</orig><reg>aliquo</reg></choice> gradu influit in effectum productum in terra vel 
+            <lb ed="#V"/>non si sic igitur stat effectum distantem fluere a veritate activa et stat 
+            <lb ed="#V"/>virtutem activam distare a termino actionis
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2451">
+            <pc type="virgula">//</pc> Item si sol sub <choice><orig>alico</orig><reg>aliquo</reg></choice> 
+            <lb ed="#V"/>gradu influit igitur infinita solum proportione causae mediantae conferunt ipsi 
+            <lb ed="#V"/>soli igitur si sol esset infinite veritatis active aequae per solam virtutem intrinsecam 
+            <lb ed="#V"/>posset talem effectum in terra producere sicut nunc per causas medias 
+            <cb ed="#V" n="b"/>
+            <lb ed="#V"/>sed deus nunc est infinite virtutis ergo etc si vero detur 2m sequitur quod si deus 
+            <lb ed="#V"/>conservaret praecise causas medias inter solem et effectum <unclear>corrumpendo</unclear> 
+            <lb ed="#V"/>solem aequae talis effectus poneretur inesse Et consimiliter posset argui de qualibet 
+            <lb ed="#V"/>causa non immediata effectui et ita si aliqua virtus corporalis sit immediata 
+            <lb ed="#V"/>effectui secundum unum extremum tantum quaecumque pars ipsius non terminata in<lb ed="#V"/>mediata 
+            ad effectum corrupta non remitteret actionem ad esse talis 
+            <lb ed="#V"/>effectus quod notum est esse impossibile
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2491">
+            <pc type="virgula">//</pc> Item si sic esset sequitur quod corpus lumino 
+            <lb ed="#V"/>sive aequae intense illuminaret medium distans sicut propinquum nam 
+            <lb ed="#V"/>nulla pars remota illuminatur nisi per immediatam igitur idem gradus luminis est 
+            <lb ed="#V"/>in parte immediata et in qualibet ultra illam <pc type="virgula">//</pc> confirmatur nam si remissus lumen 
+            <lb ed="#V"/>est in puncto remoto quam propinquo hoc est propter maiorem distantiam a 
+            <lb ed="#V"/>luminoso fontali <pc type="virgula">//</pc> sed contra nam luminosum fontale non influit 
+            <lb ed="#V"/>per veritatem intrinsecam nisi in punctum immediatum sicud ponit hoc irrationabilis 
+            <lb ed="#V"/>responsio
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2518">
+            <pc type="virgula">//</pc> Item sequitur quod corpus luminosum per veritatem intrinsecam nihil potest agere 
+            <lb ed="#V"/>nam si agit aliquod lumen praesentia <c>a</c> <c>a</c> est extensive in <choice><orig>alica</orig><reg>aliqua</reg></choice> parte medii 
+            <lb ed="#V"/>igitur data tali parte medii vel quilibet punctus illius partis est immediatus 
+            <lb ed="#V"/>luminoso quod est inpossibile vel luminosum per veritatem intrinsecam potest agere 
+            <lb ed="#V"/>indistans et habetur intentum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2545">
+            <pc type="virgula">//</pc> 2o principaliter potest argui ad eandem conclusionem 
+            <lb ed="#V"/>nam si deus esset immensus causaliter et solum in <c>a</c> puncto realiter per ymaginationem 
+            <lb ed="#V"/>adhuc esset infinitus situs ymaginarius consequentia patet cum situs ymaginarius ideo sit in<lb ed="#V"/>finitus 
+            quia infinita virtus est de facto potens infinitum facere situm positivum 
+            <lb ed="#V"/>igitur adhuc unus situs ymaginarius esset distantior a deo quam alius et tam 
+            <lb ed="#V"/>totus immediate causaliter a deo et habetur intentum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2565">
+            <pc type="virgula">//</pc> Item ad istam conclusionem est 
+            <lb ed="#V"/><name xml:id="JRPxXx-de1266-Nd1e2571" ref="#Scotus">doctor subtilis</name> distinctione 37 primi et licet aliquem ipsius rationes falsum assumunt 
+            <lb ed="#V"/>tamen una est satis efficax pro proposito et arguit sic causa 2a potest agere 
+            <lb ed="#V"/>immediate indistans et se sola sine <unclear>inti?me?a</unclear> inter ipsam et passum 
+            <lb ed="#V"/>igitur a formari causa prima si poneretur non ubique contra patet et antecedens probat de 
+            <lb ed="#V"/>sole qui producit in terra <choice><orig>alicas</orig><reg>aliquas</reg></choice> formas substantiales puta ignem gratia argumenti 
+            <lb ed="#V"/>et non per aliquam qualitatem mediam putat radium cum nulla qualitas posset 
+            <lb ed="#V"/>immediate agere ad esse substantiae sed solum ad dispositionem primam 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2597">
+            <pc type="virgula">//</pc> Sed ad 
+            <lb ed="#V"/>istam rationem potest dupliciter responderi primo negando consequentiam primam et ratio est 
+            <lb ed="#V"/>nam licet causa prima sit magis illimita quam 2a tamen est magis neccessaria 
+            <lb ed="#V"/>ad esse effectus et ideo absentia causae primae ab effectu statim redderet 
+            <lb ed="#V"/>effectum non esse sicut a qua figuram deperdit per absentiam corporis 
+            <lb ed="#V"/><unclear>terminantis</unclear> suum defluxum
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2616">
+            <pc type="virgula">//</pc> Sed ista responsio nulla est si enim causalitas 
+            <lb ed="#V"/>remissior non exigit praesentiam realem ad conservandum effectum merito 
+            <lb ed="#V"/>magis intensior quae magis est virtualis ad esse effectus
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2627">
+            <pc type="virgula">//</pc> praeterea si praesentia 
+            <lb ed="#V"/>realis non est virtualis et causalis ut sic sequitur quod causa prima non virtua<lb ed="#V"/>lius 
+            conservat effectum ex hoc quod est sibi praesens realiter igitur si per praesentialitatem 
+            <lb ed="#V"/>realem perfectius conservatur effectus hoc est quia non stat effectum esse ab<lb ed="#V"/>sentem 
+            realiter et praesentem virtualiter causae et per consequens <unclear>merito</unclear> magis est 
+            <lb ed="#V"/>hoc ponendum respectu causae finitae et limitatae quam causae immensae
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2647">
+            <pc type="virgula">//</pc> Item responsio 
+            <lb ed="#V"/>procedit ex falsa ymaginatione ymaginatur enim quasi deum formam <unclear>c?e</unclear> in conservan<lb ed="#V"/>do 
+            et causando ipsam et ideo sicud formam non stat informare et non 
+            <lb ed="#V"/>esse praesentem realiter formabili ita deum non stat formare <unclear>ci?am</unclear> in esse et 
+            <lb ed="#V"/>non esse sibi praesentem realiter sed ista ymaginatio falsa est licet enim hoc sit vera de 
+            <lb ed="#V"/>forma informativa quae ad informandum ideo exigit praesentialitatem realem 
+            <lb ed="#V"/>ad <unclear>subiectum</unclear> quoniam suum esse communicat subiecto et per informationem fit entitas subiecti 
+            <lb ed="#V"/>non tamen de formatione extrinseca et efficiente qualis sola et non alia 
+            <lb ed="#V"/>competit formae primae et ideo bene concedo quod non staret deum qualicumque modo esse 
+            <lb ed="#V"/>actum <unclear>ci?e</unclear> vel per vitalem immutationem vel per communicationem divini esse qualis 
+            <lb ed="#V"/>est in unione <unclear>suppositionabili</unclear> sine praesentialitate reali tamen hoc non est verum 
+            <lb ed="#V"/>ubi est formatio solum per modum efficientis quoniam efficiens non communicat 
+            <lb ed="#V"/>effectum suum esse et ideo non exigit ad effectum praesentialitatem
+            <lb ed="#V"/>realem
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2697">
+            <pc type="virgula">//</pc> aliter tamen respondetur ad rationem <name xml:id="JRPxXx-de1266-Nd1e2702">scoti</name> per <name xml:id="JRPxXx-de1266-Nd1e2705">quemdam doctorem</name> et 
+            <lb ed="#V"/>negatur assumptum et ad probationem dicit quod qualitas immediate efficit <unclear>substantiam</unclear> 
+            <lb ed="#V"/>dicit enim quod secundum viam phylosophi eadem transmutatio est ad qualitatem et ad formam
+            <pb ed="#V" n="242-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V"/>substantialem consequentem sed quidquid sit de via phylosophi de qua non est in cura 
+            <lb ed="#V"/>pro nunc ista responsio in rei veritate non sufficit nam ostensum fuit in <ref xml:id="JRPxXx-de1266-Rd1e2724">praecedenti 
+              <lb ed="#V"/>distinctione</ref> quod prius deus continet perfectionaliter <unclear>c?am</unclear> quam causaliter ex quo sequitur quod sicud prior est 
+            <lb ed="#V"/>in deo continentia perfectionalis quam causalis ubi tamen utraque est per plenitudinem <pc type="virgula">/</pc> ita 
+            <lb ed="#V"/>in creaturis in quibus est per participationem et ideo sicut in creaturis rationes essentiales participa<lb ed="#V"/>te 
+            puta esse simpliciter esse vitae et huiusmodi eundem ordinem habent quem in divinis con<lb ed="#V"/>similes 
+            ita huiusmodi continentiae <pc type="virgula">/</pc> et ideo omnis continentia causalis in creaturis ordinatione 
+            <lb ed="#V"/>naturae praeexigit quidditativam perfectionalem igitur si substantia est perfectior qualitate sicut 
+            <lb ed="#V"/>ipse admittit vera qualitas per veritatem propriam potest active concurrere et qualicumque 
+            <lb ed="#V"/>modo causaliter continere substantiam quam propter admittendo quod sol sit effectivus formae 
+            <lb ed="#V"/>substantialis ignis argumentum sufficienter concludit 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2757">
+            <pc type="virgula">//</pc> alia tamen argumenta facit idem 
+            <lb ed="#V"/><name xml:id="JRPxXx-de1266-Nd1e2763" ref="#Scotus">scotus</name> quorum merita supponunt quod deus ante imundum non erat in situ ymaginario 
+            <lb ed="#V"/>ubi mundus est ymaginario quod nullibi erat et quod per prius deus creat alicubi quam 
+            <lb ed="#V"/>ibi sit et quod deus non sit nisi in mundo et non in <choice><orig>alico</orig><reg>aliquo</reg></choice> situ ymaginario extra 
+            <lb ed="#V"/>mundum quae omnia ex eadem radice procedunt et falsa sunt de quibus satis miror 
+            <lb ed="#V"/>quomodo probabiliter possunt concipi ymmo et hic tute teneri Videtur enim mihi quod omnes tales 
+            <lb ed="#V"/>habent incidere in articulum hic per <name xml:id="JRPxXx-de1266-Nd1e2783">dominum stephanum parysiensis episcopum</name> re<lb ed="#V"/>probatum 
+            puta quod deus non potest movere caelum motu recto quod sine dubio omnes 
+            <lb ed="#V"/>tales habent concedere ymmo cum in omni motu sit variatio situs et nullus est situs 
+            <lb ed="#V"/>secundum istos nisi <unclear>pos?ts</unclear> contradictio est totum mundum moveri 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2797">
+            <pc type="virgula">//</pc> Item mirum est si <c>a</c> 
+            <lb ed="#V"/>angelus nunc est in lco pedali et deus destrueret omnem locum dicere quod 
+            <lb ed="#V"/>angelus nulibi esset nam si angelus prius fuit in loco pedali et est et non 
+            <lb ed="#V"/>est motus localiter eandem habet mensuram diffinitivam essendi
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2812">
+            <pc type="virgula">//</pc> Item quidquid 
+            <lb ed="#V"/>sit de hoc modo qui cum alio non discordat in re isti habent dicere quod angelus 
+            <lb ed="#V"/>sic est omni alio destructo quod si alia ponerentur in esse staret ab eis 
+            <lb ed="#V"/>ipsum magis et minus distare et isto modo est ponendus situs ymaginarius non 
+            <lb ed="#V"/>quod sit aliquod positivum et quia deus sic est immensus quod sine mutatione praesentialitatis 
+            <lb ed="#V"/>divinae non staret aliquid alicubi situari et distare si deo quantumcumque deus 
+            <lb ed="#V"/>non esset actus illius ideo dico deum esse in situ ymaginario infinito et fuisse 
+            <lb ed="#V"/>ante mundum ubi est mundus quidquid sit de proprietate locutionis locutio 11 exterior 
+            <lb ed="#V"/>potius debet familiari interiori quam econverso
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2836">
+            <pc type="virgula">//</pc> Ex hac <unclear>autem <!-- aut --></unclear> tertia conclusione 
+            <lb ed="#V"/>elici possunt variae corollariae et maxime ex rationibus primi principalis
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2848">
+            <pc type="virgula">//</pc> prima 
+            <lb ed="#V"/>quod tam causa 2a per virtutem intrinsecam agere potest indistans
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2856">
+            <pc type="virgula">//</pc>2a quod staret 
+            <lb ed="#V"/>causam 2am ita continue intendi quod per solam virtutem intrinseca aeque intense 
+            <lb ed="#V"/>continue ageret in idem passum recedens a virtute activa 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2866">
+            <pc type="virgula">//</pc> 3a quod causa infinita 
+            <lb ed="#V"/>2a si esset per virtute intrinsecam omni alia media deducta ad quamcumque 
+            <lb ed="#V"/>finitam distantiam posset agere ex quibus satis apparet <unclear>de?o</unclear> articuli ex quo cum 
+            <lb ed="#V"/>praecedentibus patet satis <unclear>de?o</unclear> quaestione de qua tenenda est pars affirmativa
+          </p>
+        </div>
+        <div xml:id="JRPxXx-de1266-Dd1e2886">
+          <head xml:id="JRPxXx-de1266-Hd1e2888">Responsiones ad rationes principales</head>
+          <p xml:id="JRPxXx-de1266-d1e2891">
+            <pc type="virgula">//</pc> ad rationes autem<!--dbcheck earlier instances of "aut"--> in oppositum ad primam concedo quidquid deducit nec est contra me sed 
+            <lb ed="#V"/>pro 
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2901">
+            <pc type="virgula">//</pc> ad 2 nego antecedens sicud patet ex deductione 2i articuli
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2907">
+            <pc type="virgula">//</pc> ad 3 patet responsio 
+            <lb ed="#V"/>ex 3o articulo
+          </p>
+          <p xml:id="JRPxXx-de1266-d1e2915">
+            <pc type="virgula">//</pc> ad 4 nego probatam consequentiam et ulterius deductio satis 
+            <lb ed="#V"/>solvitur ex dictis in 4o articulo
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
