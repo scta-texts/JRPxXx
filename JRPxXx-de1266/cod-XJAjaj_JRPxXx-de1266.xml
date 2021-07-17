@@ -835,8 +835,8 @@
             <lb ed="#V"/>ibi sit et quod deus non sit nisi in mundo et non in <choice><orig>alico</orig><reg>aliquo</reg></choice> situ ymaginario extra 
             <lb ed="#V"/>mundum quae omnia ex eadem radice procedunt et falsa sunt de quibus satis miror 
             <lb ed="#V"/>quomodo probabiliter possunt concipi ymmo et hic tute teneri Videtur enim mihi quod omnes tales 
-            <lb ed="#V"/>habent incidere in articulum hic per <name xml:id="JRPxXx-de1266-Nd1e2783">dominum stephanum parysiensis episcopum</name> re<lb ed="#V"/>probatum 
-            puta quod deus non potest movere caelum motu recto quod sine dubio omnes 
+            <lb ed="#V"/>habent incidere in <ref xml:id="JRPxXx-de1266-Rd1e2783">articulum hic per <name xml:id="JRPxXx-de1266-Nd1e2783">dominum stephanum parysiensis episcopum</name> re<lb ed="#V"/>probatum</ref> 
+            puta quod <quote xml:id="JRPxXx-de1266-Qd1e2791" source="http://scta.info/resource/z88d99-avn8u2-d1e495">deus non potest movere caelum motu recto</quote> quod sine dubio omnes 
             <lb ed="#V"/>tales habent concedere ymmo cum in omni motu sit variatio situs et nullus est situs 
             <lb ed="#V"/>secundum istos nisi <unclear>pos?ts</unclear> contradictio est totum mundum moveri 
           </p>
